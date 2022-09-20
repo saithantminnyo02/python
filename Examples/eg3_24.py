@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x1 = np.arange(-5, 1, 0.1)
+x1 = np.arange(-5, 1.1, 0.1)
 x2 = np.arange(1, 5.1, 0.1)
 y1 = 7 - (4 * x1)
 y2 = x2**2 + 2
