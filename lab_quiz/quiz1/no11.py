@@ -6,7 +6,7 @@ if a.isnumeric() and b.isnumeric() and c.isnumeric():
     if a > 0 and b > 0 and c > 0:
         arr = [a, b, c]
         arr.sort()
-        if c < (a + b):
+        if arr[2] < (arr[0] + arr[1]):
             print("Form a triangle.")
         else:
             print("Can't form a triangle.")
