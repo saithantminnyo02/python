@@ -1,20 +1,3 @@
-# for i in range(5):
-#     for j in range(5):
-#         if i == j:
-#             print("$",end=" ")
-#         else:
-#             print(".",end=" ")
-#     print()
-# save = 4
-# for i in range(5):
-#     for j in range(5):
-#         if save == j:
-#             print("$",end=" ")
-#             save -= 1
-#         else:
-#             print(".",end=" ")
-#     print()
-
 spe = input("Enter a special character: ")
 size = input("Enter the size of the pattern: ")
 option = input("Enter option for the pattern: ")
