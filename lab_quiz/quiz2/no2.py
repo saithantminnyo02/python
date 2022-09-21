@@ -1,5 +1,4 @@
-s = input("Please enter your informaiton: ").split(",")
-input1, input2 = s[0], s[1]
+input1, input2 = input("Please enter your informaiton: ").split(",")
 input1, input2 = input1.strip(), input2.strip()
 if (input1.isnumeric() or input2.isnumeric()) and (input1.isalpha() or input2.isalpha()):
     age, name = 0, ""
