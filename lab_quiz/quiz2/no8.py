@@ -1,4 +1,4 @@
-n = 11
+n = 5
 col = n+n-1
 for i in range(col):
     for j in range(n):
@@ -9,14 +9,14 @@ for i in range(col):
                 print("0", end=" ")
         else:
             print(" ", end = " ")
-    for j in range(n):
-        if (n - j <= i + 1) and (j >= i - n + 1):
-            if j % 2 == 0:
-                    print("*", end=" ")
-            else:
-                print("0", end=" ")
-        else:
-            print(" ", end = " ")
+    # for j in range(n):
+    #     if (n - j <= i + 1) and (j >= i - n + 1):
+    #         if j % 2 == 0:
+    #                 print("*", end=" ")
+    #         else:
+    #             print("0", end=" ")
+    #     else:
+    #         print(" ", end = " ")
     print()
 
 # first part
@@ -34,19 +34,11 @@ for i in range(col):
 # second part
 # for i in range(col):
 #     for j in range(n):
-#         if (n - j <= i + 1) and (j >= i - n + 1):
+#         if (n <= i + j + 1) and (j + n >= i + 1):
 #             if j % 2 == 0:
 #                     print("*", end=" ")
 #             else:
 #                 print("0", end=" ")
 #         else:
 #             print(" ", end = " ")
-
-#         # if (j < (n - 1 - i)):
-#         #     print(" ", end=" ")
-#         # else:
-#         #     if j % 2 == 0:
-#         #         print("*", end=" ")
-#         #     else:
-#         #         print("0", end=" ")
 #     print()
