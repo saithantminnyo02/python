@@ -9,14 +9,14 @@ for i in range(col):
                 print("0", end=" ")
         else:
             print(" ", end = " ")
-    # for j in range(n):
-    #     if (n - j <= i + 1) and (j >= i - n + 1):
-    #         if j % 2 == 0:
-    #                 print("*", end=" ")
-    #         else:
-    #             print("0", end=" ")
-    #     else:
-    #         print(" ", end = " ")
+    for j in range(n):
+        if (n - j <= i + 1) and (j >= i - n + 1):
+            if j % 2 == 0:
+                    print("*", end=" ")
+            else:
+                print("0", end=" ")
+        else:
+            print(" ", end = " ")
     print()
 
 # first part
