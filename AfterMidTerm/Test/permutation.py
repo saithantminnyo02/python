@@ -1,7 +1,8 @@
 l = input("Enter a comma-separated list: ").split(',')
-final = []
+# l = [1, 2, 3]
 for i in l:
     for j in l:
-        if (i != j):
-            c = [i, j]
-            print(f"{c[0]} {c[1]}")
+        for k in l:
+            
+            c = [i, j, k]
+            print(f"{c[0]} {c[1]} {c[2]}")

@@ -1,5 +1,4 @@
 l = [0, 1]
-sum = 0
 n = 0
 i = 2
 while True:
