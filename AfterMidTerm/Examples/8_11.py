@@ -5,6 +5,7 @@ while True:
         break
     else:
         keys_lower = [key.lower() for key in animals.keys()]
+        print(keys_lower)
         if animal.lower() not in keys_lower:
             animals[animal] = 1
         else:
