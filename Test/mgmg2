@@ -19,3 +19,6 @@ while True:
     else:
       print("Enter 3 values.")
  #test4 hmr error tat nay dr shrr ma ya buu kal pr
+ #test4 ka Invalid input ma hote pl nk Enter 3 values so pee paw nay tr ma lr
+ #ak test mr thu ka Done so pee pl htae lite tr
+ #ak mr n.isalpha() so Invalid input so pee htae lite
