@@ -1,0 +1,23 @@
+while True:
+  n = input("Input x,y,z :")
+  if n == "Exit" or n == "exit":
+    print("Program ended.")
+    break
+  else:
+    if n.isalpha():
+      print("Invalid input.")
+    else:
+      f = n.split(",")
+      if len(f) == 3:
+        x,y,z = n.split(",")
+        if x.isalpha() or y.isalpha() or z.isalpha():
+          print("Invalid input.")
+        else:
+          x,y,z = float(x), float(y), float(z)
+          if x > 0 and y > 0 and z > 0:
+            volume = (((x*y)/2)*z) / 3
+            print("Volume of Tetahedron is %.2f cubic unit."%volume)
+          else:
+            print("Invalid input.")
+      else:
+        print("Enter 3 values.")
