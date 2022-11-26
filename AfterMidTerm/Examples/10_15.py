@@ -5,7 +5,7 @@ b = np.array([[35], [-26], [-7]])
 # x = 1, y = 2, z = 0
 if np.linalg.det(a) != 0:
     c = np.linalg.inv(a)
-    c = (1/np.linalg.det(a)) * c
+    # c = (1/np.linalg.det(a)) * c
     print(c)
     ans = np.matmul(c, b)
     print(ans)
